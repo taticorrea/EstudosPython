@@ -1,0 +1,7 @@
+algo = input('Digite qualquer coisa: ')
+print('O tipo primitivo desse valor é: ',type(algo))
+print('Só tem números? ',algo.isnumeric())
+print('Só tem letras? ',algo.isalpha())
+print('Tem letras e números? ',algo.isalnum())
+print('Só tem letras minúsculas? ',algo.islower())
+print('Só tem letras maiúsculas? ',algo.isupper())
